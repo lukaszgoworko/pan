@@ -2,9 +2,16 @@
 gathering App
 
 ## Installation
-run
-
+### Dependencies
 ```
 yarn
+```
+## Usage
+### Start react-cli
+```
 yarn start
+```
+### Lint
+```
+yarn lint
 ```
