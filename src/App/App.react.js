@@ -10,6 +10,7 @@ import {
   Text,
   View,
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 const styles = StyleSheet.create({
   container: {
@@ -49,6 +50,9 @@ export default class App extends Component {
            For Android:
            Double tap R on your keyboard to reload,{'\n'}
            Shake or press menu button for dev menu
+        </Text>
+        <Text style={styles.welcome} onPress={() => Actions.hello()}>
+          Push me!
         </Text>
       </View>
     );
