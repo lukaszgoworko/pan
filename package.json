@@ -24,10 +24,13 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "jest": "19.0.2",
-    "react-test-renderer": "~15.4.1"
+    "react-test-renderer": "~15.4.1",
+    "redux-devtools": "^3.4.0"
   },
   "jest": {
-  	"preset": "react-native",
-  	"setupFiles": ["./jest/setup.js"]
+    "preset": "react-native",
+    "setupFiles": [
+      "./jest/setup.js"
+    ]
   }
 }
